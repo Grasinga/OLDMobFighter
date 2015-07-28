@@ -1,0 +1,24 @@
+name: MobFighter
+main: network.ethereal.MobFighter.MobFighter
+version: 1.0
+description: >
+             MobFighter!
+commands:
+  mfreload:
+    description: reloads mobfighter
+    permission: MobFighter.mfreload
+  ready:
+    description: /ready night | /ready day | /ready clear | /ready list
+  night:
+    description: Tells the player what night it is.
+  craft:
+    description: Allows player to craft.
+  getbook:
+    description: Get's the book specifed with /getbook <nameOfBook>
+  exchange:
+    description: Exchange? Exchange what?
+  setBoards:
+    description: Sets up the scoreboards.
+    permission: MobFighter.setBoards
+  getshop:
+    description: Gives the player the shop item.
